@@ -1,0 +1,330 @@
+git config --global 
+user.name
+ "KirillovItstep"
+
+itstep@PR-CAB3 MINGW64 /d/гк/github (master)
+$ git config --global 
+user.email
+ "
+kirillov.malp@gmail.com
+
+
+гк@PC16-CAB3 MINGW64 ~
+$ cd D:\гк\GITHUB
+bash: cd: D:гкGITHUB: No such file or directory
+
+гк@PC16-CAB3 MINGW64 ~
+$ cd D:/гк/GITHUB
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB
+$ pwd
+/d/гк/GITHUB
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB
+$ gti init
+bash: gti: command not found
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB
+$ gti init
+bash: gti: command not found
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB
+$ git init
+Initialized empty Git repository in D:/гк/GITHUB/.git/
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git add .
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ commit -m "v.1.0"
+bash: commit: command not found
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git commit -m "v.1.0"
+[master (root-commit) cc0dc82] v.1.0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Test.txt
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add origin https://github.com/ZhekaLited/Empty
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ help
+GNU bash, version 4.4.23(1)-release (x86_64-pc-msys)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LPW]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilnrtux] [-p] name[=v>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg]            wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add origin https://github.com/ZhekaLited/Empty
+error: remote origin already exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git push -u orogon
+fatal: 'orogon' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git push -u origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git push -u master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git push -u origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master https://github.com/ZhekaLited/Empty
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git push -u master
+remote: Permission to ZhekaLited/Empty.git denied to IlyaKuznetsov1983.
+fatal: unable to access 'https://github.com/ZhekaLited/Empty/': The requested URL returned error: 403
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git push -u master
+remote: Permission to ZhekaLited/Empty.git denied to IlyaKuznetsov1983.
+fatal: unable to access 'https://github.com/ZhekaLited/Empty/': The requested URL returned error: 403
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master https://github.com/ZhekaLited/Empty
+error: remote master already exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master https://github.com/ZhekaLited/Empty
+error: remote master already exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master https://github.com/ZhekaLited/Empty
+error: remote master already exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master https://github.com/ZhekaLited/WorkClass
+error: remote master already exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master https://github.com/ZhekaLited/WorkClass
+error: remote master already exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git push -u master
+remote: Permission to ZhekaLited/Empty.git denied to IlyaKuznetsov1983.
+fatal: unable to access 'https://github.com/ZhekaLited/Empty/': The requested URL returned error: 403
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master https://github.com/ZhekaLited/WorkClass
+error: remote master already exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master https://github.com/ZhekaLited/WorkClass
+error: remote master already exists.
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git remote add master2 https://github.com/ZhekaLited/WorkClass
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git ls-files
+Test.txt
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ gittk
+bash: gittk: command not found
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ gitk
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git commit -m "C0"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git add Test.txt
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git commit -m "C0"
+[master fcc366e] C0
+ 1 file changed, 1 insertion(+)
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git log
+commit fcc366eeee7732d058b518a94da276f6e66969ab (HEAD -> master)
+Author: ZhekaLited <zhenyagorovtsov@gmail.com>
+Date:   Fri Feb 18 19:26:53 2022 +0300
+
+    C0
+
+commit cc0dc82ba6109cb48e2e62aca4fd31369f527aef
+Author: ZhekaLited <zhenyagorovtsov@gmail.com>
+Date:   Fri Feb 18 18:58:01 2022 +0300
+
+    v.1.0
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$ git shortlog
+ZhekaLited (2):
+      v.1.0
+      C0
+
+
+гк@PC16-CAB3 MINGW64 /d/гк/GITHUB (master)
+$
+
+
+Создать в каталоге файл C0
+cd D:/Step/Github/sample26
+
+Создать репозиторий
+git init
+
+Добавить файл
+git add file.txt
+
+Посмотреть файлы
+git ls-files
+
+Выполнить коммит
+git commit -m "C0"
+
+Посмотреть историю
+git log
+
+Изменить файл и добавить в новый коммит
+git add file.txt
+git rm --cached C0.txt
+
+Коммит 1
+git commit -m "C1"
+
+Посмотреть историю изменений
+git shortlog
+
+Посмотреть авторов изменений
+git shortlog -sne
+
+Посмотреть историю и авторов
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+
+Коммит 2
+git commit -m "C2"
+
+Создать ветку
+git checkout -b iss53
+
+Или, за 2 комманды
+git branch iss53
+git checkout iss53
+
+Коммит 3 в ветке iss53
+git commit -m "C3"
+
+Переключиться на предыдущую ветку и посмотреть log
+git checkout master
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+
+Переключиться назад на ветку iss53
+git checkout iss53
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+
+Переключиться на master и сделать новый коммит
+git checkout master
+git checkout -b hotfix
+Изменить файл
+git commit -m 'hotfix'
+
+Слить в ветку master ветку hotfix
+git checkout master
+git merge hotfix
+
+Удалить ветку hotfix
+git branch -d hotfix
+
+Вернуться в iss53
+git checkout iss53
+
+Сделать изменения в iss53
+git commit -a -m 'C5'
+
+Слить в master ветку iss53 (конфликт)
+git checkout master
+git merge iss53
+
+Проверяем статус
+git status
+
+Посмотреть файл, из-за которого конфликт
+cat file.txt
+
+Удалить в редакторе разделители конфликта
+
+Выполнить коммит
+git commit -m "C4C5"
+
+Все равно ошибка, повторно добавить файл
+git add file.txt
+git commit -m "C4C5"
